@@ -1,57 +1,47 @@
-# Project 2: Tic-Tac-Toe Game - Group 12
+# Tic Tac Toe Android App
 
-## CSE 535 C Fall 2024 - Mobile Computing
+This Android application allows users to enjoy the classic game of Tic Tac Toe in various modes, including AI challenges and multiplayer options. Players can test their skills against computer-controlled opponents with varying levels of difficulty or compete against other players either on the same device or via Bluetooth.
 
-## Description
+## How to Play
 
-The goal of this project is to create an android application in which users \
-can play the classic of Tic Tac Toe. The user will be able to play against AI\
-in three difficulty modes: Easy, Medium and Hard. The user will also have the \
-option to play against another Human, either on the same device, or using \
-Bluetooth on two different devices.
+The app offers three primary modes of gameplay:
 
-## Usage
-There are three ways to play Tic Tac Toe once you launch this app:
-### 1) Against AI
-To play against AI:\
-i) Click on the **Settings** button. \
-ii) Under the **Select Game Mode** section, select **VS AI**. \
-iii) Now, the user can select the difficulty they want to play against. There are three \
-options, Easy, Medium and Hard. Select any one of the three and the user will be taken \
-to the home screen. \
-iv) Now, click on the **Start Game** button and the user will be taken to the game page. \
-v) The user always goes first, so they can start by clicking where they would like to place \
-an "X" and the AI will respond with an "O". \
-vi) The game will continue until either a player wins, or all cells are occupied and it's a draw.\
-vii) The user also has the additional option to change the difficulty level during the game \
-by clicking the **Settings** icon on the top right corner of the game board, and then selecting \
-the new difficulty level they want to play at. The game will continue from where it had stopped.
+### 1. Against AI
 
-### 2) Against another Human on the same device
-i) Click on the **Settings** button. \
-ii) Under the **Select Game Mode** section, select **VS HUMAN**. \
-iii) The user will be taken back to the home screen. Now, click on the **Start Game** button \
-and the user will be taken to the game page. \
-iv) The two users can take turns and play the game, the first user will always be "X". \
-v) The game will continue until either a player wins, or all cells are occupied and it's a draw.
+Follow these steps to set up a game against the AI:
 
-### 3) Against another Human using Bluetooth
-i) First, the users need to pair each others devices using Bluetooth. \
-ii) Both users launch the app. \
-iii) Both users Click on the **Settings** button. \
-iv) Under the **Select Game Mode** section, both users select **MULTIPLAYER**. \
-v) Both users click on the **Start Game** button. \
-vi) Now, one user clicks on the **Start Server** button on the bottom right of the page. \
-That user will be directed to a loading screen. \
-vii) Then, the second user will click on the paired device, and on clicking, both users will \
-be taken to the "**Who Goes First**" Screen. \
-viii) Here the players can decide who goes first by either clicking on the **Me** button or \
-the **Opponent** button.
-ix) Once the decision is made, both users are taken to the game screen. \
-x) The two users take turns and play the game. \
-xi) The game will continue until either a player wins, or all cells are occupied and it's a draw. 
+- **Access Settings:** Tap on the **Settings** button.
+- **Select Game Mode:** Choose **VS AI** under the **Select Game Mode** section.
+- **Choose Difficulty:** Select from **Easy**, **Medium**, or **Hard**. You will then be redirected to the home screen.
+- **Start the Game:** Press the **Start Game** button to proceed to the game page.
+- **Gameplay:** As the user, you will take the first turn with an "X", followed by the AI's "O".
+- **Continue Playing:** The game continues until there is a winner, or it ends in a draw.
+- **Adjust Difficulty:** During the game, you can change the difficulty by tapping the **Settings** icon and selecting a new level.
+
+### 2. Against Another Human on the Same Device
+
+To play with another person on the same device:
+
+- **Access Settings:** Tap on the **Settings** button.
+- **Select Game Mode:** Choose **VS HUMAN**.
+- **Start the Game:** After returning to the home screen, press the **Start Game** button.
+- **Gameplay:** Players take turns, with the first player using "X".
+- **End Game:** Play until one player wins or all cells are filled, resulting in a draw.
+
+### 3. Against Another Human Using Bluetooth
+
+For multiplayer gameplay using Bluetooth:
+
+- **Pair Devices:** Ensure both devices are paired via Bluetooth.
+- **Launch App and Access Settings:** Open the app and tap on **Settings**.
+- **Select Game Mode:** Choose **MULTIPLAYER**.
+- **Start the Game:** Tap on **Start Game**.
+- **Initialize Server:** One user selects **Start Server**, leading to a loading screen.
+- **Connect:** The second user selects the paired device to connect.
+- **Decide First Player:** On the "**Who Goes First**" screen, choose who will start by tapping **Me** or **Opponent**.
+- **Gameplay:** Alternate turns between players.
+- **Continue Playing:** The game continues until a winner is declared or a draw occurs.
 
 ## Past Games Screen
-The user can check the Past Games History by clicking on the **Past Games** button on the home \
-screen. Here, there will be a list of all the past games played on that device with the date, \
-winner and the difficulty level if played against AI.
+
+Review your gaming history by clicking on the **Past Games** button on the home screen. This section displays a list of all previous games, including the date, the winner, and the difficulty level if the game was against AI.
